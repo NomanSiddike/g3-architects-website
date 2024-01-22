@@ -164,9 +164,16 @@ main {
 }
 
 
+/* footer design  */
+footer{
+    margin: 7rem 4rem;
+    text-align: center;
+    background-color: #FFF4E7;
+}
 
-
-
+.footer-description{
+    padding: 3rem;
+}
 
 
 
