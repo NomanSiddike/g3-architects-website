@@ -12,7 +12,7 @@ header {
     padding: 50px 200px;
 }
 
-.primary-button{
+.primary-button {
     color: #FFFFFF;
     border-radius: 8px;
     background: #FF900E;
@@ -73,10 +73,72 @@ nav ul a {
     padding: 0 8rem;
 }
 
-.banner img{
+.banner img {
     margin: 2rem 0;
     width: 100%;
 }
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Teams Part Design  */
+.teams-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-left: 10.5rem;
+
+}
+
+.teams-content {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 5rem;
+    margin-left: 3rem;
+}
+
+.teams-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.of-our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Design  */
 
@@ -85,12 +147,12 @@ nav ul a {
     header {
         padding: 20px;
     }
+
     header nav {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
 
 /* medium device  */
-
